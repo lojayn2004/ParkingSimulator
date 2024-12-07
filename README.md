@@ -1,4 +1,4 @@
-# Parking Lot Simulation  🚗🚗
+# Console Based Parking Lot Simulator  🚗🚗
 
 Simulate a parking system with **Java**, using **threads** and **semaphores** for synchronization and concurrency management. 🚦  
 
