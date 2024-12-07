@@ -26,9 +26,7 @@ public class ParkingCar implements Runnable {
             Thread.sleep(duration * 1000L);
 
             gate.Leave(this);
-            //System.out.println("Car " + carId + " from Gate " + gateNumber + " left. (Parking Status: "
-            //    + (gate.GetCurrentSpots()) + " spots occupied)");
-
+          
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
